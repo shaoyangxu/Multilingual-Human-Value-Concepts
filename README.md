@@ -4,6 +4,8 @@ Welcome to the official repository for code and data accompanying our paper titl
 
 The `repe` code is based on the [representation-engineering project](https://github.com/andyzoujm/representation-engineering).
 
+The `lang_sim.pt` file is computed by running `lang2vec_try.ipynb`, which relies on [lang2vec](https://github.com/antonisa/lang2vec).
+
 # Preparing
 
 Our primary experimental data, the [Multilingual human VALUE dataset(MVALUE)](https://paperswithcode.com/dataset/mhvd) dataset, is provided in [Google Drive](https://drive.google.com/drive/folders/1-wVEEx3luRDAjG-e531nRy_2Dd-s7yFa?usp=drive_link).
