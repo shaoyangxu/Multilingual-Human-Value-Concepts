@@ -1,14 +1,16 @@
 # Multilingual-Human-Value-Concepts
 
-Welcome to the official repository for code and data accompanying our paper titled [Exploring Multilingual Human Value Concepts in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?](https://arxiv.org/abs/2402.18120)
+Welcome to the official repository for code and data accompanying our paper titled [Exploring Multilingual Human Value Concepts in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?](https://arxiv.org/abs/2402.18120).
+
+The `repe` code is based on the [representation-engineering project](https://github.com/andyzoujm/representation-engineering).
 
 # Preparing
 
-Our primary experimental data, the Multilingual human VALUE dataset(MVALUE), is provided in the [Google Drive](https://drive.google.com/drive/folders/1-wVEEx3luRDAjG-e531nRy_2Dd-s7yFa?usp=drive_link).
+Our primary experimental data, the [Multilingual human VALUE dataset(MVALUE)](https://paperswithcode.com/dataset/mhvd) dataset, is provided in [Google Drive](https://drive.google.com/drive/folders/1-wVEEx3luRDAjG-e531nRy_2Dd-s7yFa?usp=drive_link).
 
 Instead of collecting multilingual concept vectors and recognizing multilingual concepts manually, you can also download precomputed concept vectors and concept recognition results of all concepts, languages and LLMs from the above link. 
 
-To utilize these resources, you can simply download the `data` and the `res` folders in the above link and place them into the main directory of the repository.
+To utilize these resources, you should simply download the `data` and the `res` folders in the above link and place them into the main directory of the repository.
 
 # [Optional] Collecting Multilingual Concept Vectors
 
