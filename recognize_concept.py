@@ -50,7 +50,8 @@ def get_args():
     parser.add_argument(
         "--cross-model", # llama2-chat-7B,llama2-chat-13B,llama2-chat-70B,qwen-chat-1B8,qwen-chat-7B,qwen-chat-14B,bloomz-560M,bloomz-1B7,bloomz-7B1
         type=str,
-        default="analyze multilingual concept recognition accuracy of all model",
+        default="",
+        help="analyze multilingual concept recognition accuracy of all model"
     )
     args = parser.parse_args()
     return args

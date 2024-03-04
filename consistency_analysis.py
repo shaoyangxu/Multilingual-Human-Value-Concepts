@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import AxesGrid
-
+type_lst = ['genetic', 'geographic', 'syntactic', 'phonological'] 
 
 lang_score = torch.load("lang_sim.pt")
 plt.rc('font',family='Times New Roman')
