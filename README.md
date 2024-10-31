@@ -50,3 +50,27 @@ python transferability_analysis.py --lang en fr zh es pt vi ca id ja ko fi hu ta
 # Cross-Lingual Value Alignment Control
 
 TBC
+
+# Citation
+```bibtex
+@article{DBLP:journals/corr/abs-2402-18120,
+  author       = {Shaoyang Xu and
+                  Weilong Dong and
+                  Zishan Guo and
+                  Xinwei Wu and
+                  Deyi Xiong},
+  title        = {Exploring Multilingual Human Value Concepts in Large Language Models:
+                  Is Value Alignment Consistent, Transferable and Controllable across
+                  Languages?},
+  journal      = {CoRR},
+  volume       = {abs/2402.18120},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2402.18120},
+  doi          = {10.48550/ARXIV.2402.18120},
+  eprinttype    = {arXiv},
+  eprint       = {2402.18120},
+  timestamp    = {Tue, 26 Mar 2024 10:51:46 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2402-18120.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
